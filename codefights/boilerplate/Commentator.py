@@ -81,7 +81,7 @@ class Commentator:
         for block in blocks:
             rez += block + ', '
 
-        return rez
+        return rez[:-2]
 
     @staticmethod
     def _describe_comment(move):
